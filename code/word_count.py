@@ -1,0 +1,6 @@
+
+
+st = 'A trove of internal documents and insider interviews has pulled back the curtain on one of Silicon Valley’s most secretive and highly valued companies, Palantir Technologies. Started in part with CIA money, the data-analysis company promised that its software would revolutionize everything from espionage to consumer businesses, and it has grown in both revenue and employees. But the documents and interviews show that Palantir has also lost blue-chip clients, is struggling to stem staff departures, and has recorded revenue that is just a fraction of its customer bookings. Over the last 13 months, at least three top-tier corporate clients have walked away, including Coca-Cola, American Express, and Nasdaq, according to internal documents. Palantir mines data to help companies make more money, but clients have balked at its high prices that can exceed $1 million per month, expressed doubts that its software can produce valuable insights over time, and even experienced difficult working relationships with Palantir’s young engineers. Palantir insiders have bemoaned the “low-vision” clients who decide to take their business elsewhere.'
+count = 0
+for item in st.split(' '): count +=1
+print (count)
